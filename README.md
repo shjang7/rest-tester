@@ -11,22 +11,24 @@ The project is part of a series of projects to be completed by students of [Micr
 
 ## Dependencies
 
-> Library file location
+> Controller file location
 
 ```sh
-./lib/script.rb
+./app/controllers/application_controller.rb
+./app/controllers/users_controller.rb
 ```
 
-> Main file location
+> View file location
 
 ```sh
-./bin/main.rb
+./app/views/layouts
+./app/views/users
 ```
 
-> Rspec file location
+> Run script file location
 
 ```sh
-./spec/script_spec.rb
+./app/script/rest_requestor.rb
 ```
 
 ## Installation / Usage
@@ -34,26 +36,25 @@ The project is part of a series of projects to be completed by students of [Micr
 > Clone the repository to your local machine
 
 ```sh
-$ git clone https://github.com/wathigo/rest-client.git
+$ git clone https://github.com/shjang7/rest-tester.git
 ```
 
 > Go to the directory
 
 ```sh
-$ cd rest-client
+$ cd rest-tester
 ```
 
-> Run main file with search words
+> Open server
 
 ```sh
-$ cd bin
-$ ruby main.rb [search1] [(option)search2] [...]
+$ rails server
 ```
 
-> To test with Rspec (In the root directory)
+> Run main file
 
 ```sh
-$ rspec
+$ ruby app/script/rest_requestor.rb
 ```
 
 ## Contributors
@@ -62,7 +63,7 @@ This is a collaborative project by us: [Simon Wathigo](https://github.com/wathig
 
 ## Contributing
 
-1. Fork it (https://github.com/wathigo/rest-client/fork)
+1. Fork it (https://github.com/shjang7/rest-tester/fork)
 2. Create your feature branch (git checkout -b feature/[choose-a-name])
 3. Commit your changes (git commit -am 'what this commit will fix/add')
 4. Push to the branch (git push origin feature/[chosen-name])

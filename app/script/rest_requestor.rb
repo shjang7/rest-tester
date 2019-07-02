@@ -1,5 +1,5 @@
 require 'rest-client'
-user_url = "http://localhost:3000/user/1"
+user_url = "http://localhost:3000/users/1"
 users_url = "http://localhost:3000/users"
 new_user_url = "http://localhost:3000/users/new"
 edit_user_url = "http://localhost:3000/users/1/edit"

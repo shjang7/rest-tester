@@ -1,13 +1,13 @@
 # Rest Test project
 
-This is a collaborative project to test our understanding of the [Router](https://en.wikipedia.org/wiki/Router_(computing)).
+This is a collaborative project to test our understanding of the [Routes](https://www.tutorialspoint.com/ruby-on-rails/rails-routes)). Simply, routes enables users to access different paths in rails application.
 
 The project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
 
 ## Technologies
 
-- Ruby
-- Rails
+- Ruby 2.6.1
+- Rails 5.2.3
 
 ## Dependencies
 
